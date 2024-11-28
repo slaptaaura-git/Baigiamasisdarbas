@@ -169,7 +169,7 @@ body {
   .qa-container {
     max-width: 500px;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 .qa-item {
@@ -182,8 +182,6 @@ body {
     padding: 50px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-    height: auto;
-    width: auto;
 }
 
 .question {
