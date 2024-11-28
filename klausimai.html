@@ -56,85 +56,92 @@
         </nav>
         <h1>Klausimai apie Kalėdas</h1>
     </header>
-    <main>
-        <section id="klausimai">
-            <h2>Išbandyk savo žinias!</h2>
-            <div class="qa-container">
-                <div class="qa-item" id="question1">
-                    <div class="question">Kas yra Kalėdos?</div>
-                    <ul class="answers">
-                        <li><button onclick="answerQuestion(1, true)">Jėzaus gimimo šventė</button></li>
-                        <li><button onclick="answerQuestion(1, false)">Pavasario šventė</button></li>
-                        <li><button onclick="answerQuestion(1, false)">Vasaros šventė</button></li>
-                    </ul>
-                </div>
-            
-                <div class="qa-item" id="question2">
-                    <div class="question">Kada švenčiamos Kalėdos?</div>
-                    <ul class="answers">
-                        <li><button onclick="answerQuestion(2, true)">Gruodžio 25-ąją</button></li>
-                        <li><button onclick="answerQuestion(2, false)">Sausio 1-ąją</button></li>
-                        <li><button onclick="answerQuestion(2, false)">Spalio 31-ąją</button></li>
-                    </ul>
-                </div>
-            
-                <div class="qa-item" id="question3">
-                    <div class="question">Kas yra Kalėdų Senelis?</div>
-                    <ul class="answers">
-                        <li><button onclick="answerQuestion(3, true)">Dovanas dalinantis personažas</button></li>
-                        <li><button onclick="answerQuestion(3, false)">Pasirodo tik per Velykas</button></li>
-                        <li><button onclick="answerQuestion(3, false)">Tėvas, kuris nešioja dovanas visus metus</button></li>
-                    </ul>
-                    <div class="qa-item" id="question4">
-                    <div class="question">Kas yra Kalėdų Senelis?</div>
-                    <ul class="answers">
-                            <li><button onclick="answerQuestion(3, true)">Dovanas dalinantis personažas</button></li>
-                            <li><button onclick="answerQuestion(3, false)">Pasirodo tik per Velykas</button></li>
-                            <li><button onclick="answerQuestion(3, false)">Tėvas, kuris nešioja dovanas visus metus</button></li>
-                        </ul>
-                        <div class="qa-item" id="question5">
-                    <div class="question">Koks yra populiarus šiltas Kalėdų gėrimas?</div>
-                    <ul class="answers">
-                        <li><button onclick="answerQuestion(3, false)">Arbata su citrina</button></li>
-                        <li><button onclick="answerQuestion(3, true)">Karštas vynas</button></li>
-                        <li><button onclick="answerQuestion(3, false)">Kava su pienu</button></li>
-                    </ul>
-                    <div class="qa-item" id="question6">
-                    <div class="question">Koks Kalėdų senelio pagalbininkas dažniausiai minimas pasakose?</div>
-                    <ul class="answers">
-                        <li><button onclick="answerQuestion(3, true)">Elfai</button></li>
-                        <li><button onclick="answerQuestion(3, false)">Nykštukai</button></li>
-                         <li><button onclick="answerQuestion(3, false)">Fėjos</button></li>
-                    </ul>
-                    <div class="qa-item" id="question7">
-                    <div class="question">Kokį garsą dažniausiai simbolizuoja Kalėdos?</div>
-                    <ul class="answers">
-                        <li><button onclick="answerQuestion(3, false)">Paukščių čiulbėjimą</button></li>
-                        <li><button onclick="answerQuestion(3, false)">Vėjo ūžimą</button></li>
-                        <li><button onclick="answerQuestion(3, true)">Varpelių skambėjimą/button></li>
-                    </ul>
-                    <div class="qa-item" id="question8">
-                    <div class="question">Kokiu simboliu žmonės dažniausiai papuošia eglutės viršūnę?</div>
-                    <ul class="answers">
-                        <li><button onclick="answerQuestion(3, true)">Žvaigžde</button></li>
-                        <li><button onclick="answerQuestion(3, false)">Vainiku</button></li>
-                        <li><button onclick="answerQuestion(3, false)">Angelu</button></li>
-                    </ul>
-                    <div class="qa-item" id="question9">
-                        <div class="question">Kas yra „Advento kalendorius“?</div>
-                        <ul class="answers">
-                            <li><button onclick="answerQuestion(3, true)">Kalendorius, padedantis skaičiuoti dienas iki Kalėdų</button></li>
-                            <li><button onclick="answerQuestion(3, false)">Šventinė maldų knygelė</button></li>
-                            <li><button onclick="answerQuestion(3, false)">Kalėdų vakarienės receptų knyga</button></li>
-                        </ul>
-                    <div class="qa-item" id="question10">
-                        <div class="question">Kokia spalva dažniausiai siejama su Kalėdų seneliu?</div>
-                        <ul class="answers">
-                            <li><button onclick="answerQuestion(3, false)">Žalia</button></li>
-                            <li><button onclick="answerQuestion(3, false)">Balta</button></li>
-                            <li><button onclick="answerQuestion(3, true)">Raudona</button></li>
-                        </ul>
-                </div>
+    <section id="klausimai">
+        <h2>Išbandyk savo žinias!</h2>
+        <div class="qa-container">
+
+            <div class="qa-item" id="question1" style="display: none;">
+                <div class="question">Kas yra Kalėdos?</div>
+                <ul class="answers">
+                    <li><button onclick="answerQuestion(1, true)">Jėzaus gimimo šventė</button></li>
+                    <li><button onclick="answerQuestion(1, false)">Pavasario šventė</button></li>
+                    <li><button onclick="answerQuestion(1, false)">Vasaros šventė</button></li>
+                </ul>
+            </div>
+
+            <div class="qa-item" id="question2" style="display: none;">
+                <div class="question">Kada švenčiamos Kalėdos?</div>
+                <ul class="answers">
+                    <li><button onclick="answerQuestion(2, true)">Gruodžio 25-ąją</button></li>
+                    <li><button onclick="answerQuestion(2, false)">Sausio 1-ąją</button></li>
+                    <li><button onclick="answerQuestion(2, false)">Spalio 31-ąją</button></li>
+                </ul>
+            </div>
+
+            <div class="qa-item" id="question3" style="display: none;">
+                <div class="question">Kas yra Kalėdų Senelis?</div>
+                <ul class="answers">
+                    <li><button onclick="answerQuestion(3, true)">Dovanas dalinantis personažas</button></li>
+                    <li><button onclick="answerQuestion(3, false)">Pasirodo tik per Velykas</button></li>
+                    <li><button onclick="answerQuestion(3, false)">Tėvas, kuris nešioja dovanas visus metus</button></li>
+                </ul>
+            </div>
+
+            <div class="qa-item" id="question4" style="display: none;">
+                <div class="question">Koks yra populiarus šiltas Kalėdų gėrimas?</div>
+                <ul class="answers">
+                    <li><button onclick="answerQuestion(4, false)">Arbata su citrina</button></li>
+                    <li><button onclick="answerQuestion(4, true)">Karštas vynas</button></li>
+                    <li><button onclick="answerQuestion(4, false)">Kava su pienu</button></li>
+                </ul>
+            </div>
+
+            <div class="qa-item" id="question5" style="display: none;">
+                <div class="question">Kokį garsą dažniausiai simbolizuoja Kalėdos?</div>
+                <ul class="answers">
+                    <li><button onclick="answerQuestion(5, false)">Paukščių čiulbėjimą</button></li>
+                    <li><button onclick="answerQuestion(5, false)">Vėjo ūžimą</button></li>
+                    <li><button onclick="answerQuestion(5, true)">Varpelių skambėjimą</button></li>
+                </ul>
+            </div>
+
+            <div class="qa-item" id="question6" style="display: none;">
+                <div class="question">Koks Kalėdų senelio pagalbininkas dažniausiai minimas pasakose?</div>
+                <ul class="answers">
+                    <li><button onclick="answerQuestion(6, true)">Elfai</button></li>
+                    <li><button onclick="answerQuestion(6, false)">Nykštukai</button></li>
+                    <li><button onclick="answerQuestion(6, false)">Fėjos</button></li>
+                </ul>
+            </div>
+
+            <!-- Klausimas 7 -->
+            <div class="qa-item" id="question7" style="display: none;">
+                <div class="question">Kokiu simboliu žmonės dažniausiai papuošia eglutės viršūnę?</div>
+                <ul class="answers">
+                    <li><button onclick="answerQuestion(7, true)">Žvaigžde</button></li>
+                    <li><button onclick="answerQuestion(7, false)">Vainiku</button></li>
+                    <li><button onclick="answerQuestion(7, false)">Angelu</button></li>
+                </ul>
+            </div>
+
+            <div class="qa-item" id="question8" style="display: none;">
+                <div class="question">Kas yra „Advento kalendorius“?</div>
+                <ul class="answers">
+                    <li><button onclick="answerQuestion(8, true)">Kalendorius, padedantis skaičiuoti dienas iki Kalėdų</button></li>
+                    <li><button onclick="answerQuestion(8, false)">Šventinė maldų knygelė</button></li>
+                    <li><button onclick="answerQuestion(8, false)">Kalėdų vakarienės receptų knyga</button></li>
+                </ul>
+            </div>
+
+            <div class="qa-item" id="question9" style="display: none;">
+                <div class="question">Kokia spalva dažniausiai siejama su Kalėdų seneliu?</div>
+                <ul class="answers">
+                    <li><button onclick="answerQuestion(9, false)">Žalia</button></li>
+                    <li><button onclick="answerQuestion(9, false)">Balta</button></li>
+                    <li><button onclick="answerQuestion(9, true)">Raudona</button></li>
+                </ul>
+            </div>
+        </div>
         </section>
     </main>
     <footer>
