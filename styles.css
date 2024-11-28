@@ -263,11 +263,11 @@ img {
 }
 
 footer {
-  text-align: center;
-  padding: 5px;
-  background-color: #333;
-  color: white;
-  position: relative;
-  bottom: 0rem;
-  width: 100%;
-}
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: -8rem;
+    width: 100%;
+  }
