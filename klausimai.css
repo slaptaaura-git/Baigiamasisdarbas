@@ -226,6 +226,10 @@ button:hover {
       margin-bottom: 0.5rem;
   }
 
+  .qa-container {
+        font-size: 1.8rem;
+}
+
   .cirkle {
       display: none;
   }
