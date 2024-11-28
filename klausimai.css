@@ -212,53 +212,54 @@ button:hover {
     background-color: #45a049;
 }
 
-@media screen and (max-width: 300px) {
-  header h1 {
-      font-size: 1.8rem;
-  }
-
-  nav ul {
-      flex-direction: column;
+@media (max-width: 300px) {
+  .qa-item {
+      width: 100%;
   }
 
   nav ul li {
-      text-align: center;
-      margin-bottom: 0.5rem;
+      display: block;
+      margin: 5px 0;
   }
 
-  .qa-container {
-        font-size: 1.8rem;
+  body {
+      font-size: 14px;
+  }
 }
 
-  .cirkle {
-      display: none;
+@media (min-width: 300px) and (max-width: 1024px) {
+  .qa-item {
+      width: 45%;
+  }
+
+  nav ul li {
+      display: inline;
+      margin-right: 10px;
+  }
+
+  body {
+      font-size: 16px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .qa-item {
+      width: 30%;
+  }
+
+  body {
+      font-size: 18px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .qa-item {
+      width: 25%;
   }
 
   .snowflakes {
       display: none;
   }
-}
-
-@media screen and (min-width: 300px) and (max-width: 1024px) {
-    header {
-        padding: 2rem;
-    }
-
-    header h1 {
-        font-size: 2.2rem;
-    }
-    qa-container {
-        font-size: 2.0rem;
-}
-
-@media screen and (min-width: 1025px) {
-    header h1 {
-        font-size: 3rem;
-    }
-
-    nav ul {
-        justify-content: space-around;
-    }
 }
   
   footer {
