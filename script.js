@@ -18,7 +18,7 @@ function answerQuestion(questionNumber, correct) {
         document.getElementById("question" + currentQuestion).style.display = "block";
     } else {
         alert("Klausimų pabaiga! Ačiū, kad dalyvavote!");
-        showResults(); // Rodo rezultatus (jei reikia)
+        showResults();
     }
 }
 
