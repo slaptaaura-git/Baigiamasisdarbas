@@ -265,7 +265,7 @@ img {
   }
 }
 
-@media screen and (min-width: 450px) and (max-width: 1024px) {
+@media screen and (min-width: 300px) and (max-width: 1024px) {
   header {
       padding: 2rem;
   }
