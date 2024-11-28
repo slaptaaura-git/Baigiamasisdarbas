@@ -16,7 +16,7 @@ body {
     transform: translateY(25px);
   }
 }
-/* customizable snowflake styling */
+
 .snowflake {
   color: #fff;
   font-size: 1em;
