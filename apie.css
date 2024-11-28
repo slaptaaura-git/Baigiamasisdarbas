@@ -168,7 +168,7 @@ body {
     margin: 20px 0;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 450px) {
     header h1 {
         font-size: 1.8rem;
     }
