@@ -191,7 +191,7 @@ body {
     }
   }
   
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
+  @media screen and (min-width: 450px) and (max-width: 1024px) {
     header {
         padding: 2rem;
     }
