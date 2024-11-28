@@ -242,7 +242,7 @@ img {
   cursor: not-allowed;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 450px) {
   header h1 {
       font-size: 1.8rem;
   }
@@ -257,7 +257,7 @@ img {
   }
 
   .cirkle {
-      display: none; /* Slepiame nereikalingus efektus */
+      display: none;
   }
 
   .snowflakes {
@@ -265,8 +265,7 @@ img {
   }
 }
 
-/* Stiliai vidutinio dydžio ekranams (planšetėms) */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 450px) and (max-width: 1024px) {
   header {
       padding: 2rem;
   }
@@ -276,7 +275,6 @@ img {
   }
 }
 
-/* Stiliai dideliems ekranams (staliniams kompiuteriams) */
 @media screen and (min-width: 1025px) {
   header h1 {
       font-size: 3rem;
