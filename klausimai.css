@@ -225,6 +225,11 @@ button:hover {
       text-align: center;
       margin-bottom: 0.5rem;
   }
+    
+.qa-container {
+    max-width: 300px;
+    height: auto;
+  }
 
   .snowflakes {
       display: none;
