@@ -202,7 +202,7 @@ button.toggle-text:hover {
     background-color: #b30000;
 }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 450px) {
     header h1 {
         font-size: 1.8rem;
     }
@@ -225,7 +225,7 @@ button.toggle-text:hover {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 450px) and (max-width: 1024px) {
     header {
         padding: 2rem;
     }
